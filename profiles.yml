@@ -4,7 +4,8 @@
      databricks_job:
       type: databricks
       method: http
-      schema: default
+      catalog: dbt_demo_from_vscode
+      schema: shop_lkh
       host: "{{ env_var('DBT_HOST') }}"
       http_path: "{{ env_var('DBT_HTTP_PATH') }}"
       token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
