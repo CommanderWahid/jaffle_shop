@@ -2,7 +2,7 @@
 name = "jaffle-shop"
 version = "0.1.0"
 description = ""
-authors = ["Wahid Atoui <atouiwahid@gmail.com>"]
+authors = ["Commander Wahid"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
